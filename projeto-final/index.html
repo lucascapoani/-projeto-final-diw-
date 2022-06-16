@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Pizzaria</title>
+    </head>
+
+    <body>
+
+        <!--- CONTAINER --->
+        <div id="container">
+
+            <!--- CABEÇALHO --->
+    		<header>
+
+
+                <!--- HERO-HEADER --->
+                <div class="hero">
+
+                    <!--- TÍTULO --->
+                    <h1>Pizzaria Va fa' Napoli</h1>
+
+                    <!--- MENU --->
+        			<nav>
+        				
+                        <ul>
+        					<li>
+        						<a href="#cardapio">Cardápio</a>
+        					</li>
+        					<li>
+        						<a href="#depoimentos">Depoimentos</a>
+        					</li>
+        					<li>
+        						<a href="#receita">Receita</a>
+        					</li>
+        					<li>
+        						<a href="#cadastro">Cadastro</a>
+        					</li>
+        				</ul>
+
+        			</nav>
+
+                </div>
+
+            </header>
+
+            <!--- MAIN --->
+            <main>
+            
+                <!--- CARDÁPIO --->
+                <section id="cardapio">
+
+                    <!--- PIZZAS --->
+                    <h2>Nossas Pizzas</h2>
+                    
+                        <!--- Pizza 1 --->
+                        <div id="pizza1">
+
+                            <img src="img/pizza-temporario-1.jpg">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam voluptates quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+
+                            <button id="comprar">Comprar</button>
+
+                        </div>
+
+                        <!--- Pizza 2 --->
+                        <div id="pizza2">
+
+                            <img src="img/pizza-temporario-2.jpg">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam voluptates quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+                            
+                            <button id="comprar">Comprar</button>
+
+                        </div>
+
+                        <!--- Pizza 3 --->
+                        <div id="pizza3">
+
+                            <img src="img/pizza-temporario-3.jpg">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam voluptates quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+
+                            <button id="comprar">Comprar</button>
+
+                        </div>
+
+                </section>
+
+                <!--- DEPOIMENTOS --->
+                <section id="depoimentos">
+
+                    <!--- PIZZAS --->
+                    <h2>Depoimento de Clientes</h2>
+
+                        <div id="depo1">
+
+                            <img src="#">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam voluptates quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+
+                        </div>
+
+                        <div id="depo2">
+
+                            <img src="#">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam voluptates quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+
+                        </div>
+
+                        <div id="depo3">
+
+                            <img src="#">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam voluptates quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+
+                        </div>
+
+                        <div id="depo4">
+
+                            <img src="#">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam voluptates quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+
+                        </div>
+
+                        <div id="depo5">
+
+                            <img src="#">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam voluptates quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+
+                        </div>
+
+                </section>
+
+                <section id="receita">
+
+                    <!--- RECEITA --->
+                    <h2>Aprenda nossa receita!</h2>
+
+                    <img src="#">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis aperiam <a href="#">voluptates</a> quaerat nobis repellat repudiandae odit officiis quidem dicta, fugit impedit eius ab. Ex sapiente in provident vitae odit.</p>
+
+                    <ul>
+                        <li>Manjericão</li>
+                        <li>Mozzarella</li>
+                        <li>Mostarda</li>
+                    </ul>
+                    
+                </section>
+
+                <section id="cadastro">
+
+                    <h2>cadastre-se e faça seu pedido</h2>
+                    
+                    <form name="cadastro-cliente" action="cadastro.html" method="get">
+                        <fieldset>
+                            
+                            <label for="nome"> Qual seu nome? </label>
+                            <input type="text" name="nome" id="nome" placeholder="Dante Alighieri">
+
+                            <label for="email"> E seu E-mail? </label>
+                            <input type="email" name="email" id="email" placeholder="leodavinci@mona.lisa">
+
+                            <label for="cidade"> De qual região/cidade você é? </label>
+                            <select name="cidade" id="cidade">
+                            
+                                <optgroup label="Campânia">
+                                    <option value="nap"> Nápoles </option>
+                                    <option value="av"> Avelino </option>
+                                    <option value="bene"> Benevento </option>
+                                    <option value="cas"> Caserta </option>
+                                    <option value="sal"> Salerno </option>
+                                </optgroup>
+
+                                <optgroup label="Lácio">
+                                    <option value="fro"> Frosinone </option>
+                                    <option value="lat"> Latina </option>
+                                    <option value="rie"> Rieti </option>
+                                    <option value="roma"> Roma </option>
+                                    <option value="vit"> Viterbo </option>
+                                </optgroup>
+
+                                <optgroup label="Molise">
+                                    <option value="camp"> Campobasso </option>
+                                    <option value="ise"> Isérnia </option>
+                                </optgroup>
+
+                            </select>
+
+                            <label for="sabor"> Qual sabor chamou mais sua atenção? </label>
+                            <select name="sabor" id="sabor">
+                                <option value="marg"> Margherita </option>
+                                <option value="napo"> Napolitana </option>
+                                <option value="port"> Portuguesa </option>
+                            </select>
+
+                            <label> Deixe seu depoimento! </label>
+                            <textarea placeholder="Ma che pizza meravigliosa!"></textarea>
+
+                            <input id="btncad" type="submit" name="botao_de_cadastro" value="Feito!">
+
+                        </fieldset>                       
+                    </form>
+
+                    <aside>
+                        
+                        <article>Ficamos logo após o Monte Vesúvio, esquina com as ruínas de Pompeia, aproximadamente 3 quadras após as ilhas de Capri. Aqui tem um mapa pra você se localizar! Funcionamos das 12h as 16h e das 18h a 00h.</article>
+
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8534.957409064145!2d14.26511307713148!3d40.859514455774466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b08109efacacd%3A0x6aa3c2098c708387!2sPizzeria%20Pellone!5e0!3m2!1spt-BR!2sbr!4v1655343452254!5m2!1spt-BR!2sbr"style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </aside>
+
+                </section>
+
+            </main>
+
+            <footer>
+                
+                <h4>Números para contato:</h4>
+                    <p>99999999</p>
+                    <p>99999999</p>
+                    <p>99999999</p>
+
+                <h4>Endereço</h4>
+                    <p>Via Nazionale, 93, 80143 Napoli NA, Itália</p>
+
+                <!-- Na real, nessa parte das redes eu tava pensando em criar uma imagem clicável que nem o sor ensinou na aula de formulários, mas deixa p depois na real. -->
+
+                <h4>Nos siga nas redes sociais!</h4>
+                    <nav>                            
+                        <ul>
+                            <li>
+                                <a href="#">Insta</a>
+                            </li>
+                            <li>
+                                <a href="#">Face</a>
+                            </li>
+                            <li>
+                                <a href="#">Twitter</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+            </footer>
+
+        </div>
+
+    </body>
+
+</html>
