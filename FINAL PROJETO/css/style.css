@@ -206,6 +206,18 @@ span{
     margin: 5px 0;
 }
 
+#receita #massa{
+    float: left;
+    margin: 0;
+    text-align: left;
+}
+
+#receita #recheio{
+    float: right;
+    margin: 0;
+    text-align: left;
+}
+
 /*========================================================================*/
 
 #cadastro{
@@ -229,8 +241,8 @@ span{
     margin-bottom: 25px 0;
 }
 
-form{
-    margin: 15px;
+form div{
+    margin: 20px
 }
 
 fieldset label{
@@ -288,10 +300,19 @@ footer{
     height: 150px;
 }
 
+#num{
+    margin-bottom: 5px;
+    line-height: 21px;
+}
+
+#end{
+    line-height: 21px;
+}
+
 #contato{
     float: left;
     text-align: center;
-    margin: 20px auto;
+    margin: 9px auto;
     margin-left: 100px;
 }
 
